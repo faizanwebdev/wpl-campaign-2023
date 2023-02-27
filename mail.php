@@ -11,7 +11,7 @@ function cleanup( $data ) {
 //    $data = mysqli_real_escape_string($con, $data);
     return $data;
 }
-echo "success";
+//echo "success";
 
 if(isset($_POST['signup']) && $_SERVER['REQUEST_METHOD'] == "POST"){
     $name = cleanup($_POST['name']);
