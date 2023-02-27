@@ -50,12 +50,12 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
   color: #ef1932;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .section-header p {
@@ -587,9 +587,10 @@ section {
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 33px;
   font-weight: 700;
   color: #012970;
+    text-align: center
 }
 
 .about p {
