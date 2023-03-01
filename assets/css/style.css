@@ -256,7 +256,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -272,12 +272,12 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #ef1932;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #ef1932;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -287,7 +287,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: black;
 }
 
 .navbar .dropdown ul {
@@ -1438,7 +1438,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 15px 0px 60px 0px;
 }
 
 .team .member {
@@ -1503,14 +1503,14 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #012970;
+  color: #ef1932;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: black;
 }
 
 .team .member .member-info p {
@@ -2382,7 +2382,7 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: black;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2416,14 +2416,14 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #4154f1;
+  color: #ef1932;
 }
 
 .footer .footer-top .footer-contact p {
@@ -2465,4 +2465,28 @@ section {
     .content-margin{
         margin:1rem!important;
     }
+}
+.section-header h3{
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+
+@media (max-width: 768px){
+    .section-header h3{
+        font-size: 28px;
+    line-height: 32px;
+    }
+}
+
+.member-info p a{
+    color: black;
+    font-size: 15px;
+/*    padding: 2px;*/
+}
+
+.member-info p a:hover{
+    color: #ef1932;
+    font-size: 15px;
+/*    padding: 2px;*/
 }
