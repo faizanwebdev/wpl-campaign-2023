@@ -1522,7 +1522,7 @@ section {
 }
 
 .team .member:hover {
-  transform: scale(1.08);
+  transform: scale(1.03);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
