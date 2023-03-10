@@ -128,7 +128,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #ef1932;
+  background: #2196f3;
   width: 200px;
   height: 50px;
   color: white; 
@@ -277,7 +277,7 @@ section {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #ef1932;
+  background: #2196f3;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -2451,11 +2451,11 @@ section {
       position: fixed;
       visibility: hidden;
       opacity: 0;
-      right: 0px;
-      bottom: 0px;
+      right: 10px;
+      bottom: 10px;
       z-index: 99999;
-      background: #ef1932;
-      width: 100%;
+      background: #2196f3;
+      width: 150px;
       height: 60px;
       color: white; 
       border-radius: 4px;
